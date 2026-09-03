@@ -76,3 +76,8 @@ table, th, td {
 th, td {
     padding: 0 10px 0 10px;
 }
+
+/* links */
+.github-link {
+    width: 30px;
+}
