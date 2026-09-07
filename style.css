@@ -77,7 +77,30 @@ th, td {
     padding: 0 10px 0 10px;
 }
 
-/* links */
+/* About Me */
 .github-link {
     width: 30px;
+}
+
+/* Blog */
+.blog-posts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    max-width: 1400px;
+    margin: 0 auto;
+    gap: 50px;
+    
+}
+
+.blog-posts article {
+    width: 100%;
+    max-width: 450px;
+    height: 150px;
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 10%;
 }
