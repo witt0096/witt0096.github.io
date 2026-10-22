@@ -58,6 +58,12 @@ nav {
     border-radius: 10px;
 }
 
+.hz-logo {
+    height: 1.25em;
+    padding: 0 5px 0 5px;
+    margin-bottom: -3px;
+}
+
 /* Main Content */
 h1,
 h2,
@@ -98,6 +104,15 @@ td {
 }
 
 /* About Me */
+.about {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.about-image {
+  width: 30%;
+  border-radius: 5%;
+}
 
 
 /* Blog */
