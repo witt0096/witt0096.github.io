@@ -134,8 +134,9 @@ td {
     max-width: 450px;
     height: 150px;
     padding: 50px;
-    border: 1px solid black;
-    border-radius: 10%;
+    border: 1.75px solid black;
+    background-color:aliceblue;
+    border-radius: 5%;
 }
 
 .swot-table {
