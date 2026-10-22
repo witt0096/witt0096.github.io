@@ -129,3 +129,14 @@ th, td {
     word-wrap: break-word;
     
 }
+
+/* Footer */
+footer {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    background-color:aliceblue;
+    padding: 50px;
+    margin: 0;
+    position: sticky;
+    border-radius: 0 0 10px 10px;
+}
