@@ -1,8 +1,8 @@
-/*Header*/
-
 html {
     overflow-y: scroll;
 }
+
+/*Header and navigation*/
 
 header {
     text-align: center;
@@ -79,7 +79,11 @@ main {
 }
 
 .main-section {
-    padding: 0 10px 5px 10px;
+    padding: 10px;
+}
+
+.link {
+    color: #628562;
 }
 
 
@@ -103,6 +107,10 @@ td {
     padding: 0 10px 0 10px;
 }
 
+th {
+    font-family: 'Jetbrains Mono', sans-serif;
+}
+
 /* About Me */
 .about {
   display: flex;
@@ -112,6 +120,23 @@ td {
 .about-image {
   width: 30%;
   border-radius: 5%;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px;
+  background-color: #ea6c29;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #eaa786;
 }
 
 
@@ -138,6 +163,8 @@ td {
     background-color:aliceblue;
     border-radius: 5%;
 }
+
+/* SWOT Table */
 
 .swot-table {
     width: 75%;
